@@ -10,3 +10,9 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+.sass-cache
+
+public/css/dennisprudlo.css
+public/css/dennisprudlo.min.css
+public/js/dennisprudlo.min.js

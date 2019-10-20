@@ -2,4 +2,6 @@
 
 @section('content')
 	test
+
+	@include('layouts.components.footer')
 @endsection

@@ -1,0 +1,52 @@
+footer {
+
+	background-color: $colorLayerDark;
+	padding: 80px 20px;
+	color: white;
+
+	& .thanks {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		& .strip {
+			background-color: lighten($colorLayerDark, 10%);
+			flex-grow: 1;
+			margin: 0 50px;
+			height: 5px;
+		}
+
+		& h1 {
+			color: white;
+			margin: 0;
+			text-align: center;
+		}
+	}
+
+	& .social {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 40px 0;
+
+		& a {
+			color: white;
+			@include deftrans(color);
+			&:hover {
+				color: $colorHighlight;
+				@include deftrans(color);
+			}
+
+			& i {
+				font-size: 24px;
+				margin: 0 15px;
+			}
+		}
+	}
+
+	& p {
+		font-size: 14px;
+		line-height: 18px;
+		text-align: center;
+	}
+}

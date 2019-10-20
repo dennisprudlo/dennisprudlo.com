@@ -1,0 +1,22 @@
+$fontTitle:					'Catamaran', sans-serif;
+$fontParagraph:				'Lato', sans-serif;
+
+$colorLayerDark:			#333;
+$colorHighlight:			#ff5257;
+
+
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+
+@mixin deftrans($property) {
+	-webkit-transition: $property 0.2s ease;
+	-moz-transition: $property 0.2s ease;
+	-ms-transition: $property 0.2s ease;
+	-o-transition: $property 0.2s ease;
+	transition: $property 0.2s ease;
+}
