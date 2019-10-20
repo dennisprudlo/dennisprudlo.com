@@ -12,13 +12,26 @@ footer {
 		& .strip {
 			background-color: lighten($colorLayerDark, 10%);
 			flex-grow: 1;
-			margin: 0 50px;
 			height: 5px;
+
+			margin: 0 50px;
+			@include screen-smaller-than(md) {
+				margin: 0 40px;
+			}
+			@include screen-smaller-than(sm) {
+				margin: 0 20px;
+			}
+			@include screen-smaller-than(xs) {
+				margin: 0px;
+			}
+			@include screen-smaller-than(xxs) {
+				flex-grow: 0;
+			}
 		}
 
 		& h1 {
 			color: white;
-			margin: 0;
+			margin: 0 30px;
 			text-align: center;
 		}
 	}
