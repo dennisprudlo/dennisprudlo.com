@@ -57,6 +57,19 @@ footer {
 		}
 	}
 
+	& .external {
+		& a, a:visited, a:active, a:link {
+			margin: 0 5px;
+
+			color: white;
+			@include deftrans(color);
+			&:hover {
+				color: $colorHighlight;
+				@include deftrans(color);
+			}
+		}
+	}
+
 	& p {
 		font-size: 14px;
 		line-height: 18px;

@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/',			'PageController@getIndex')->name('get-index');
+Route::get('/masthead',	'PageController@getMasthead')->name('get-masthead');
+Route::get('/privacy',	'PageController@getPrivacy')->name('get-privacy');
