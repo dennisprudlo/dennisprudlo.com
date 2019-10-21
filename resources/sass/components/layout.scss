@@ -1,0 +1,19 @@
+.layout {
+
+	&__sheet {
+		max-width: 700px;
+		margin: 0 auto;
+		@include screen-smaller-than(sm) {
+			padding: 0 20px;
+		};
+
+		& ul {
+			list-style: none;
+			padding-inline-start: 0;
+		}
+		& h2 {
+			margin-top: 35px;
+		}
+	}
+
+}

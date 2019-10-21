@@ -4,6 +4,11 @@ footer {
 	padding: 80px 20px;
 	color: white;
 
+	margin-top: 50px;
+	@include screen-smaller-than(sm) {
+		margin-top: 20px;
+	};
+
 	& .thanks {
 		display: flex;
 		justify-content: space-around;
