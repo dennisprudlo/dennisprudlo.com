@@ -13,5 +13,5 @@
 		<a href="https://linkedin.com/in/dennisprudlo"><i class="fab fa-linkedin-in"></i></a>
 		<a href="https://github.com/dennisprudlo"><i class="fab fa-github"></i></a>
 	</div>
-	<p>Copyright &copy; {{ \Carbon\Carbon::now()->year }}. Dennis Prudlo.</p>
+	<p>Copyright &copy; {{ \Carbon\Carbon::now()->year }} by Dennis Prudlo.</p>
 </footer>
