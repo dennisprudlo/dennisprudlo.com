@@ -67,4 +67,5 @@
 			More detailed privacy policy information can be found in our <a href="{!! route('get-privacy') !!}">privacy policy</a>.
 		</p>
 	</div>
+	@include('layouts.components.footer')
 @endsection
