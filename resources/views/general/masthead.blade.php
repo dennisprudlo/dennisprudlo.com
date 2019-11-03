@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+	@include('layouts.components.navigation.topbarSheet')
 	<div class="layout__sheet">
 		<h1>Masthead</h1>
 		<p>Information according to § 5 TMG<p>

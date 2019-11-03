@@ -10,9 +10,8 @@ module.exports = function(grunt) {
 				options: {
 					sourcemap: 'none'
 				},
-				files: {
-					'public/css/dennisprudlo.css': 'resources/sass/app.scss'
-				}
+				src: 'resources/sass/app.scss',
+				dest: 'public/css/dennisprudlo.css'
 			}
 		},
 		cssmin: {
@@ -46,7 +45,7 @@ module.exports = function(grunt) {
 		}
 	});
 
-	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-node-sass');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 

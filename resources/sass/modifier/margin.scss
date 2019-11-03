@@ -1,0 +1,19 @@
+.margin {
+	&-right {
+		&--xs {
+			margin-right: 2px;
+		}
+		&--sm {
+			margin-right: 6px;
+		}
+		&--md {
+			margin-right: 10px;
+		}
+		&--lg {
+			margin-right: 14px;
+		}
+		&--xl {
+			margin-right: 28px;
+		}
+	}
+}

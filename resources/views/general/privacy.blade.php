@@ -5,5 +5,5 @@
 @endsection
 
 @section('content')
-
+	@include('layouts.components.navigation.topbarSheet')
 @endsection
