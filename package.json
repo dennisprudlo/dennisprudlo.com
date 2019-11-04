@@ -1,9 +1,12 @@
 {
-    "private": true,
-    "devDependencies": {
-        "grunt": "^1.0.4",
-        "grunt-contrib-cssmin": "^3.0.0",
-        "grunt-contrib-uglify": "^4.0.1",
-        "grunt-node-sass": "^1.0.1"
-    }
+	"private": true,
+	"scripts": {
+		"brew": "npm run sass && npm run terser",
+		"sass": "node-sass resources/sass/app.scss --output-style compressed > public/css/dennisprudlo.min.css",
+		"terser": "terser resources/js/**/*.js --output public/js/dennisprudlo.min.js --mangle"
+	},
+	"devDependencies": {
+		"node-sass": "^4.13.0",
+		"terser": "^4.3.9"
+	}
 }
