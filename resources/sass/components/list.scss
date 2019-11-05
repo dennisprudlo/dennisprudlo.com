@@ -1,0 +1,6 @@
+.list {
+	&--no-bullet {
+		list-style: none;
+		padding-inline-start: 0;
+	}
+}

@@ -15,7 +15,7 @@
 
 		<h2>Your rights of data subjects</h2>
 		<p>You can exercise the following rights at any time using the contact details provided by our data protection officer:</p>
-		<ul>
+		<ul class="list--no-bullet">
 			<li>Information about your data stored with us and their processing (Art. 15 DSGVO</li>
 			<li>Correction of incorrect personal data (Art. 16 DSGVO)</li>
 			<li>Deletion of your data stored with us (Art. 17 DSGVO)</li>

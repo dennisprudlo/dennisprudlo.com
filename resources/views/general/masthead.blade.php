@@ -10,14 +10,14 @@
 		<h1>Masthead</h1>
 		<p>Information according to § 5 TMG<p>
 
-		<ul>
+		<ul class="list--no-bullet">
 			<li>Dennis Prudlo</li>
 			<li>Slabystraße 17</li>
 			<li>12459 Berlin, Germany</li>
 		</ul>
 
 		<h2>Contact</h2>
-		<ul>
+		<ul class="list--no-bullet">
 			<li>Phone: Upon request</li>
 			<li>E-Mail: <a href="mailto:mail@dennisprudlo.com">mail@dennisprudlo.com</a></li>
 		</ul>
