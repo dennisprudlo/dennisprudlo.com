@@ -135,6 +135,6 @@
 
 		<h2>Questions to the Data Protection Officer</h2>
 		<p>If you have any questions about data protection, please send us an e-mail or contact the person responsible for data protection in our organisation directly.</p>
-		@include('layouts.components.footer')
 	</div>
+	@include('layouts.components.footer')
 @endsection

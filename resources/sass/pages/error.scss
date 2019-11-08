@@ -56,13 +56,12 @@
 			text-transform: uppercase;
 			color: $colorLayerDark;
 			& > span {
-				color: lighten($colorLayerDark, 35%);
 				white-space: nowrap;
 			}
 		}
 		& > p {
 			margin-top: 5px;
-			color: $colorLayerDark;
+			color: darken($colorLayerLight, 20%);
 			font-weight: 700;
 		}
 		& > a {

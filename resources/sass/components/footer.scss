@@ -1,8 +1,8 @@
 footer {
 
-	background-color: $colorLayerDark;
+	background-color: $colorLayerLight;
 	padding: 80px 20px;
-	color: white;
+	color: $colorLayerDark;
 
 	margin-top: 50px;
 	@include screen-smaller-than(sm) {
@@ -15,7 +15,7 @@ footer {
 		align-items: center;
 
 		& .strip {
-			background-color: lighten($colorLayerDark, 10%);
+			background-color: darken($colorLayerLight, 10%);
 			flex-grow: 1;
 			height: 5px;
 			border-radius: 2.5px;
@@ -36,7 +36,7 @@ footer {
 		}
 
 		& h1 {
-			color: white;
+			color: $colorLayerDark;
 			margin: 0 30px;
 			text-align: center;
 		}
@@ -49,7 +49,7 @@ footer {
 		padding: 40px 0;
 
 		& a {
-			color: white;
+			color: $colorLayerDark;
 			@include deftrans(color);
 			&:hover {
 				color: $colorHighlight;
@@ -67,7 +67,7 @@ footer {
 		& a, a:visited, a:active, a:link {
 			margin: 0 5px;
 
-			color: white;
+			color: $colorLayerDark;
 			@include deftrans(color);
 			&:hover {
 				color: $colorHighlight;

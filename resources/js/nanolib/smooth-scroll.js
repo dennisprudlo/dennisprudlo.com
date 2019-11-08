@@ -5,11 +5,15 @@
  * @param  {Click-Event} event	The onClick-Event item
  * @return {void}
  */
-$('[data-smooth-scroll]').on('click', 'a', function (event) {
+document.querySelectorAll('[data-smooth-scroll]').forEach((item) => item.addEventListener('click', function () {
 
 	//
 	// Check whether a hash anchor was set
 	if (this.hash !== '') {
+
+		//
+		// Retrieve the target element where the site should scroll to
+		let target	= document.querySelector(this.hash);
 
 		//
 		// Prevent the default click behavior
@@ -18,12 +22,10 @@ $('[data-smooth-scroll]').on('click', 'a', function (event) {
 		//
 		// Define animation properties
 		let properties = {
-			scrollTop: $(this.hash).offset().top
+			scrollTop: target.getBoundingClientRect().top + document.body.scrollTop
 		}
 
-		//
-		// Animate the virtual scroll
-		$('html, body').animate(properties, 500, () => {
+		new Animator(document.documentElement, properties, 400, 'easeIn').run(() => {
 			//
 			// Set the urls hash value on complete
 			window.location.hash = this.hash;
@@ -31,4 +33,4 @@ $('[data-smooth-scroll]').on('click', 'a', function (event) {
 
 	}
 
-});
+}));

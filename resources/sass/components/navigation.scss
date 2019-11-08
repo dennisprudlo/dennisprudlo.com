@@ -3,6 +3,7 @@
 	width: 100%;
 	height: 50px;
 	line-height: 50px;
+	background-color: $colorLayerLight;
 
 	margin-bottom: 50px;
 	@include screen-smaller-than(md) {
@@ -19,6 +20,15 @@
 	&__link-item {
 		padding: 10px 10px;
 		font-weight: 600;
+	}
+
+	& a {
+		color: $colorLayerDark;
+		@include deftrans(color);
+		&:hover {
+			color: $colorHighlight;
+			@include deftrans(color);
+		}
 	}
 
 	/*
