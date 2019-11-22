@@ -1,0 +1,11 @@
+.text {
+
+}
+
+p {
+	& > span.highlight {
+		background-color:	$colorHighlight;
+		color:				white;
+		padding:			2px 5px;
+	}
+}

@@ -1,13 +1,16 @@
 @import 'modifier/margin';
+@import 'modifier/interaction';
 
 @import 'foundation/breakpoints';
 @import 'foundation/variables';
 @import 'foundation/foundation';
 
+@import 'components/feed';
+@import 'components/footer';
 @import 'components/layout';
-@import 'components/section';
 @import 'components/list';
 @import 'components/navigation';
-@import 'components/footer';
+@import 'components/section';
+@import 'components/text';
 
 @import 'pages/error';
