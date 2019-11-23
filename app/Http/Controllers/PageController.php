@@ -9,9 +9,15 @@ class PageController extends Controller
 {
 	public function getIndex() {
 		$portfolio = [
-			// 'HTW Mate' => (object) [
-			//
-			// ]
+			'HTW Mate' => (object) [
+				'appIconUrl'	=> url('/images/projects/htwmate/icon.png'),
+				'imageUrls'		=> [
+					url('/images/projects/htwmate/preview1.png'),
+					url('/images/projects/htwmate/preview2.png'),
+					url('/images/projects/htwmate/preview3.png')
+				],
+				'description'	=> 'HTW Mate is a simple app for the university I\'m studying at. You can find articles and events, view the cafeteria\'s menu, view your grades and much more.'
+			]
 		];
 
 		$images = [

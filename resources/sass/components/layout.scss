@@ -18,6 +18,9 @@
 	&__extended-sheet {
 		max-width: 1000px;
 		margin: 0 auto;
+		@include screen-smaller-than(lg) {
+			padding: 0 20px;
+		};
 	}
 
 }

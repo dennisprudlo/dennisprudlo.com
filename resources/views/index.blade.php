@@ -10,13 +10,14 @@
 		</div>
 	</div>
 	<div class="section" id="portfolio">
-		<h1 class="layout__sheet">Portfolio</h1>
-		<div class="layout__extended-sheet">
+		<div class="layout__sheet">
 			@foreach ($portfolio as $name => $properties)
-				{{ $name }}
+				@include('components.project', ['name' => $name, 'properties' => $properties])
 			@endforeach
 		</div>
 	</div>
+
+	<br><br><br><br>
 
 	<div class="section" id="feed">
 		<div class="layout__extended-sheet">
