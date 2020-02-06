@@ -12,7 +12,7 @@
 		<meta name='robots'			content='index,follow'>
 
 		<meta name="mobile-web-app-capable"					content="yes">
-		<meta name="theme-color"							content="white">´
+		<meta name="theme-color"							content="white">
 		<meta name="screen-orientation"						content="portrait">
 		<meta name='apple-mobile-web-app-capable'			content='yes'>
 		<meta name="apple-mobile-web-app-title"				content="Dennis Prudlo">
