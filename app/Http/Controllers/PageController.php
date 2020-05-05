@@ -21,11 +21,11 @@ class PageController extends Controller
 		];
 
 		$images = [
-			'https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/64887803_514027852470265_8776174369259711903_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=101&oh=862eca592f74308311ac736a71028940&oe=5E67DFE1' => Carbon::create(2019,  6, 30, 13, 24, 55, 'Europe/Berlin'),
-			'https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/64531051_2336896319858748_1414173876376209719_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=100&oh=8b7c33584a7d44b6389dbc92a78694c3&oe=5E859ADD' => Carbon::create(2019,  6, 23, 19, 12, 55, 'Europe/Berlin'),
-			'https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/53034702_331999484000364_4198757688388099132_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=100&oh=29aa501e392cde66436c365368413635&oe=5E815A33' => Carbon::create(2019,  3, 23, 18, 59, 04, 'Europe/Berlin'),
-			'https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/53539954_1129142043913522_1585111614850325282_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=110&oh=8d1952a0875dd246138677b0b44ca06d&oe=5E73FD42' => Carbon::create(2019,  3, 10, 19, 05, 48, 'Europe/Berlin'),
-			'https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/40547060_2096578727258063_3543945352431595695_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&oh=97f8059f787d7ab19fe96316d83feaab&oe=5E701CA7' => Carbon::create(2018,  9,  9, 19, 05, 48, 'Europe/Berlin'),
+			'https://scontent-ber1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/64887803_514027852470265_8776174369259711903_n.jpg?_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=KkJDj1-XNLsAX-PShb4&oh=76c5347e4375deb8602aff928fd23ed5&oe=5EDC7E2A' => Carbon::create(2019,  6, 30, 13, 24, 55, 'Europe/Berlin'),
+			'https://scontent-ber1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/64531051_2336896319858748_1414173876376209719_n.jpg?_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=CxfQHbiLljMAX8Yowpn&oh=8324083e4816635c56a9d2edbd38450a&oe=5EDAE167' => Carbon::create(2019,  6, 23, 19, 12, 55, 'Europe/Berlin'),
+			'https://scontent-ber1-1.cdninstagram.com/v/t51.2885-15/e35/53034702_331999484000364_4198757688388099132_n.jpg?_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=wIw99S4-KzQAX98MQbD&oh=d82a71cc50a1ed2a30828b9e68a52d64&oe=5EDAE9AA' => Carbon::create(2019,  3, 23, 18, 59, 04, 'Europe/Berlin'),
+			'https://scontent-ber1-1.cdninstagram.com/v/t51.2885-15/e35/53539954_1129142043913522_1585111614850325282_n.jpg?_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_cat=110&_nc_ohc=zKiG4gs0AHMAX8rrS-U&oh=dd74627c783f8c84ea680469f1fb70a6&oe=5ED9953E' => Carbon::create(2019,  3, 10, 19, 05, 48, 'Europe/Berlin'),
+			'https://scontent-ber1-1.cdninstagram.com/v/t51.2885-15/e35/40547060_2096578727258063_3543945352431595695_n.jpg?_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=sGwjjtkBvWUAX8jIwb4&oh=c7541dc612fd5d12642d386c22c3e7dc&oe=5EDCE6E3' => Carbon::create(2018,  9,  9, 19, 05, 48, 'Europe/Berlin'),
 		];
 
 		return view('index')
