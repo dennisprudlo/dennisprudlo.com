@@ -14,8 +14,3 @@
 Route::get('/',			'PageController@getIndex')->name('get-index');
 Route::get('/masthead',	'PageController@getMasthead')->name('get-masthead');
 Route::get('/privacy',	'PageController@getPrivacy')->name('get-privacy');
-
-Route::prefix('upload')->group(function () {
-	Route::get('/', 'UploadController@getIndex')->name('get-upload');
-	Route::post('/', 'UploadController@postUpload')->name('post-upload');
-});

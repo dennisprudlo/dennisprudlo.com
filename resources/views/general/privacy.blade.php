@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-	@include('layouts.components.navigation.topbarSheet')
+	@include('layouts.navigation.topbarSheet')
 	<div class="layout__sheet">
 		<h1>Privacy Policy</h1>
 		<p>
@@ -136,5 +136,5 @@
 		<h2>Questions to the Data Protection Officer</h2>
 		<p>If you have any questions about data protection, please send us an e-mail or contact the person responsible for data protection in our organisation directly.</p>
 	</div>
-	@include('layouts.components.footer')
+	@include('layouts.navigation.footer')
 @endsection
