@@ -6,7 +6,7 @@
 		"terser": "terser resources/js/**/*.js --output public/js/dennisprudlo.min.js --mangle"
 	},
 	"devDependencies": {
-		"node-sass": "^4.13.0",
+		"node-sass": "^4.13.1",
 		"terser": "^4.3.9"
 	}
 }
