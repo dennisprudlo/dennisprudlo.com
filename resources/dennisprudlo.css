@@ -1,0 +1,124 @@
+html * {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	color: #000;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	height: 100%;
+	background-color: #fefefe;
+}
+
+body > section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+body > aside {
+	background-image: url(aside.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 40%;
+}
+
+body > aside > svg {
+	height: 100%;
+	width: 40px;
+}
+
+section > div {
+	max-width: 500px;
+}
+
+h1 {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	line-height: 3rem;
+	font-weight: 800;
+}
+
+h1 > span {
+	color: #bd003c;
+}
+
+p {
+	font-size: 1.1rem;
+	margin-bottom: 1.1rem;
+	font-weight: 500;
+}
+
+section > div > div {
+	display: flex;
+	margin-top: 2rem;
+}
+
+section > div > div > a {
+	padding: 20px 40px;
+	border-radius: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 1rem;
+
+	transition: color .2s ease-in-out, background-color .2s ease-in-out;
+	background-color: #fff1f5;
+	color: #bd003c;
+}
+
+section > div > div > a:hover {
+	transition: color .2s ease-in-out, background-color .2s ease-in-out;
+	background-color: #bd003c;
+	color: #fefefe;
+}
+
+section > div > div > a:last-child {
+	margin-right: 0;
+}
+
+@media only screen and (max-width: 991px) {
+	body > aside {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	body > section {
+		padding: 50px;
+	}
+
+	section > div > div > a {
+		padding: 15px 25px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.hide-m {
+		display: none;
+	}
+
+	body > section {
+		padding: 20px;
+	}
+
+	section > div > div {
+		flex-direction: column;
+	}
+
+	section > div > div > a {
+		margin-right: 0;
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+
+	section > div > div > a:last-child {
+		margin-bottom: 0;
+	}
+}
