@@ -47,7 +47,7 @@ body > aside {
 }
 
 body > aside > svg {
-	height: 100%;
+	height: 100vh;
 	width: 40px;
 	fill: var(--background);
 }
